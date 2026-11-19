@@ -100,6 +100,8 @@ function renderCurrentWeek() {
       const exId = `${day.id}_ex${exIndex}`;
       const completedSets = getCompletedSets(exId);
       const isCompleted = completedSets === ex.sets;
+      const restSeconds = firstSeconds(ex.rest);
+      const workSeconds = /segundo/i.test(ex.reps || '') ? firstSeconds(ex.reps) : 0;
 
       html += `
         <div class="exercise-card ${isCompleted ? 'completed' : ''}" data-ex-id="${exId}">
@@ -112,13 +114,19 @@ function renderCurrentWeek() {
             <span>${ex.reps}</span>
             <span>Descanso: ${ex.rest}</span>
           </div>
-          <div class="sets-container">
-            ${Array.from({length: ex.sets}, (_, i) => `
-              <button class="set-btn ${i < completedSets ? 'done' : ''}" 
-                      onclick="toggleSet('${exId}', ${i}, ${ex.sets})">
-                ${i + 1}
-              </button>
-            `).join('')}
+          <div class="sets-row" style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+            <div class="sets-container">
+              ${Array.from({length: ex.sets}, (_, i) => `
+                <button class="set-btn ${i < completedSets ? 'done' : ''}" 
+                        onclick="toggleSet('${exId}', ${i}, ${ex.sets})">
+                  ${i + 1}
+                </button>
+              `).join('')}
+            </div>
+            <div class="timers" style="display:flex;flex-direction:row;align-items:center;gap:6px;margin-left:auto">
+              ${workSeconds ? timerButton(exId + ':work', workSeconds, 'Tempo', 'work') : ''}
+              ${restSeconds ? timerButton(exId + ':rest', restSeconds, 'Descanso', '') : ''}
+            </div>
           </div>
           ${ex.note ? `<div class="exercise-note">${ex.note}</div>` : ''}
         </div>
@@ -130,6 +138,122 @@ function renderCurrentWeek() {
 
   main.innerHTML = html || '<div class="welcome"><p>Nenhum treino nesta semana.</p></div>';
   updateWeekButtons();
+  paintTimer();
+}
+
+function timerButton(key, seconds, name, extraClass) {
+  const stroke = extraClass === 'work' ? '#93c5fd' : '#22c55e';
+  return `<button type="button" class="timer-btn ${extraClass}" data-key="${key}" data-name="${name}" data-seconds="${seconds}" onclick="onTimerClick('${key}', ${seconds})" style="display:flex;align-items:center;gap:8px;border:1px solid #334155;background:transparent;color:#f1f5f9;border-radius:999px;padding:4px 12px 4px 4px;cursor:pointer">
+    <svg class="timer-svg" viewBox="0 0 36 36" width="42" height="42" aria-hidden="true" style="transform:rotate(-90deg);flex:none">
+      <circle class="timer-track" cx="18" cy="18" r="14" fill="none" stroke="#334155" stroke-width="3"></circle>
+      <circle class="timer-ring" cx="18" cy="18" r="14" fill="none" stroke="${stroke}" stroke-width="3" stroke-linecap="round" stroke-dasharray="87.96"></circle>
+    </svg>
+    <span class="timer-copy" style="display:flex;flex-direction:column;line-height:1.05;text-align:left">
+      <span class="timer-name" style="font-size:11px;color:#94a3b8">${name}</span>
+      <span class="timer-time" style="font-size:15px;font-weight:700">${formatTime(seconds)}</span>
+    </span>
+  </button>`;
+}
+
+let activeTimer = null;
+const TIMER_RING = 2 * Math.PI * 14;
+
+function firstSeconds(text) {
+  const match = String(text || '').match(/(\d+)/);
+  return match ? Number(match[1]) : 0;
+}
+
+function formatTime(total) {
+  const seconds = Math.max(0, Number(total) || 0);
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return m + ':' + String(s).padStart(2, '0');
+}
+
+let audioCtx = null;
+
+function audioContext() {
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  if (audioCtx.state === 'suspended') audioCtx.resume();
+  return audioCtx;
+}
+
+function playTone(ctx, frequency, start, duration) {
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = 'sine';
+  osc.frequency.value = frequency;
+  gain.gain.setValueAtTime(0.0001, start);
+  gain.gain.exponentialRampToValueAtTime(0.22, start + 0.02);
+  gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.start(start);
+  osc.stop(start + duration);
+}
+
+function beep() {
+  try {
+    const ctx = audioContext();
+    const now = ctx.currentTime;
+    playTone(ctx, 880, now, 0.18);
+    playTone(ctx, 1175, now + 0.2, 0.28);
+  } catch (e) {}
+}
+
+function stopTimer() {
+  if (activeTimer && activeTimer.interval) clearInterval(activeTimer.interval);
+  activeTimer = null;
+  paintTimer();
+}
+
+function onTimerClick(key, seconds) {
+  try { audioContext(); } catch (e) {}
+  if (activeTimer && activeTimer.key === key && activeTimer.interval) {
+    stopTimer();
+    return;
+  }
+  if (activeTimer && activeTimer.interval) clearInterval(activeTimer.interval);
+  activeTimer = { key, remaining: seconds, total: seconds, interval: null };
+  activeTimer.interval = setInterval(() => {
+    activeTimer.remaining -= 1;
+    if (activeTimer.remaining <= 0) {
+      clearInterval(activeTimer.interval);
+      activeTimer.interval = null;
+      activeTimer.remaining = 0;
+      beep();
+    }
+    paintTimer();
+  }, 1000);
+  paintTimer();
+}
+
+function paintTimer() {
+  document.querySelectorAll('.timer-btn').forEach((btn) => {
+    const key = btn.dataset.key;
+    const time = btn.querySelector('.timer-time');
+    const ring = btn.querySelector('.timer-ring');
+    const total = Number(btn.dataset.seconds) || 1;
+    const mine = activeTimer && activeTimer.key === key;
+    const remaining = mine ? activeTimer.remaining : total;
+    const used = mine ? activeTimer.total : total;
+    const ratio = Math.max(0, Math.min(1, remaining / used));
+    if (ring) ring.style.strokeDashoffset = String(TIMER_RING * (1 - ratio));
+    if (!mine) {
+      btn.classList.remove('running', 'finished');
+      if (time) time.textContent = formatTime(total);
+      return;
+    }
+    if (remaining <= 0) {
+      btn.classList.remove('running');
+      btn.classList.add('finished');
+      if (time) time.textContent = 'Fim';
+      return;
+    }
+    btn.classList.add('running');
+    btn.classList.remove('finished');
+    if (time) time.textContent = formatTime(remaining);
+  });
 }
 
 function toggleSet(exId, setIndex, totalSets) {

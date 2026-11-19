@@ -273,11 +273,98 @@ main {
 }
 
 /* Sets */
+.sets-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .sets-container {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 8px;
+  margin-top: 0;
+}
+
+.timers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  flex: none;
+}
+
+.timer-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 4px 12px 4px 4px;
+  cursor: pointer;
+}
+
+.timer-svg {
+  width: 42px;
+  height: 42px;
+  transform: rotate(-90deg);
+  flex: none;
+}
+
+.timer-track,
+.timer-ring {
+  fill: none;
+  stroke-width: 3;
+}
+
+.timer-track {
+  stroke: var(--border);
+}
+
+.timer-ring {
+  stroke: var(--accent);
+  stroke-linecap: round;
+  stroke-dasharray: 87.96;
+  stroke-dashoffset: 0;
+}
+
+.timer-btn.work .timer-ring {
+  stroke: #93c5fd;
+}
+
+.timer-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.05;
+}
+
+.timer-name {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.timer-time {
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.timer-btn.running {
+  border-color: var(--accent);
+}
+
+.timer-btn.work.running {
+  border-color: #93c5fd;
+}
+
+.timer-btn.finished .timer-time {
+  color: var(--accent);
 }
 
 .set-btn {
