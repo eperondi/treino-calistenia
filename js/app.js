@@ -10,6 +10,7 @@ const firebaseConfig = {
 };
 
 let currentUser = 'emerson';
+let currentLevel = 0;
 let currentWeek = 0;
 let db = null;
 let stopWatch = null;
@@ -17,6 +18,7 @@ let stopWatch = null;
 // Inicialização
 document.addEventListener('DOMContentLoaded', () => {
   loadProgress();
+  renderLevelsNav();
   renderWeeksNav();
   setupEventListeners();
   updateOverallProgress();
@@ -55,11 +57,36 @@ function setupEventListeners() {
   });
 }
 
+function weeks() {
+  return treinoData.levels[currentLevel].weeks;
+}
+
+function renderLevelsNav() {
+  const nav = document.getElementById('levels-nav');
+  if (!nav) return;
+  nav.innerHTML = '';
+  treinoData.levels.forEach((level, index) => {
+    const btn = document.createElement('button');
+    btn.className = 'level-btn' + (index === currentLevel ? ' active' : '');
+    btn.textContent = level.title;
+    btn.addEventListener('click', () => {
+      currentLevel = index;
+      currentWeek = 0;
+      if (typeof stopTimer === 'function') stopTimer();
+      renderLevelsNav();
+      renderWeeksNav();
+      renderCurrentWeek();
+      updateOverallProgress();
+    });
+    nav.appendChild(btn);
+  });
+}
+
 function renderWeeksNav() {
   const nav = document.getElementById('weeks-nav');
   nav.innerHTML = '';
 
-  treinoData.weeks.forEach((week, index) => {
+  weeks().forEach((week, index) => {
     const btn = document.createElement('button');
     btn.className = 'week-btn' + (index === currentWeek ? ' active' : '');
     btn.innerHTML = `
@@ -78,7 +105,7 @@ function renderWeeksNav() {
 
 function renderCurrentWeek() {
   const main = document.getElementById('main-content');
-  const week = treinoData.weeks[currentWeek];
+  const week = weeks()[currentWeek];
   
   if (!week) return;
 
@@ -273,7 +300,7 @@ function toggleSet(exId, setIndex, totalSets) {
 }
 
 function toggleDay(dayId) {
-  const week = treinoData.weeks[currentWeek];
+  const week = weeks()[currentWeek];
   const day = week.days.find(d => d.id === dayId);
   if (!day) return;
 
@@ -404,7 +431,7 @@ function getDayProgress(day) {
 }
 
 function getWeekProgress(weekIndex) {
-  const week = treinoData.weeks[weekIndex];
+  const week = weeks()[weekIndex];
   if (!week) return 0;
   let total = 0;
   let done = 0;
@@ -420,7 +447,7 @@ function getWeekProgress(weekIndex) {
 function updateOverallProgress() {
   let total = 0;
   let done = 0;
-  treinoData.weeks.forEach(week => {
+  weeks().forEach(week => {
     week.days.forEach(day => {
       day.exercises.forEach((ex, i) => {
         total += ex.sets;
@@ -490,6 +517,6 @@ function closeVideoModal() {
 }
 
 // Inicia na primeira semana se houver dados
-if (typeof treinoData !== 'undefined' && treinoData.weeks.length > 0) {
+if (typeof treinoData !== 'undefined' && weeks().length > 0) {
   setTimeout(() => renderCurrentWeek(), 100);
 }

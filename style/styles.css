@@ -119,6 +119,36 @@ body {
   text-align: right;
 }
 
+/* Levels */
+.levels-nav {
+  display: flex;
+  gap: 8px;
+  padding-top: 14px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.levels-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.level-btn {
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.level-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* Weeks Nav */
 .weeks-nav {
   display: flex;
