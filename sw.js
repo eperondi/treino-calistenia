@@ -1,4 +1,4 @@
-const CACHE_NAME = "treino-calistenia-v2";
+const CACHE_NAME = "treino-calistenia-v3";
 
 const PRECACHE_URLS = [
   "./",
@@ -14,10 +14,10 @@ const PRECACHE_URLS = [
 ];
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE_URLS))
-  );
   self.skipWaiting();
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE_URLS).catch(() => null))
+  );
 });
 
 self.addEventListener("activate", (event) => {
@@ -30,6 +30,10 @@ self.addEventListener("activate", (event) => {
         )
       )
       .then(() => self.clients.claim())
+      .then(() => self.clients.matchAll({ type: "window" }))
+      .then((clients) =>
+        Promise.all(clients.map((client) => client.navigate(client.url)))
+      )
   );
 });
 
@@ -42,7 +46,7 @@ self.addEventListener("fetch", (event) => {
   if (url.pathname.endsWith("/sw.js")) return;
 
   event.respondWith(
-    fetch(request)
+    fetch(request, { cache: "no-store" })
       .then((response) => {
         if (response && response.status === 200 && response.type === "basic") {
           const copy = response.clone();
