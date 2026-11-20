@@ -755,10 +755,10 @@ const treinoData = {
       id: "iniciante",
       title: "Iniciante",
       weeks: [
-      {
-        id: 1,
-        title: "Semana 1",
-        days: [
+    {
+      id: 1,
+      title: "Semana 1",
+      days: [
         {
           id: "in1d1",
           title: "Dia 1: Empurrar e Core",
@@ -860,7 +860,7 @@ const treinoData = {
               sets: 3,
               reps: "10",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/Xp33YgPZgns",
               note: "Glute Bridge"
             },
             {
@@ -868,7 +868,7 @@ const treinoData = {
               sets: 3,
               reps: "15 segundos por lado",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/Oe9Tp9SvTCE",
               note: "Side Plank"
             }
           ]
@@ -882,7 +882,7 @@ const treinoData = {
               sets: 3,
               reps: "10 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/vVybJ3hTpFw?t=47",
               note: "Support Hold"
             },
             {
@@ -890,7 +890,7 @@ const treinoData = {
               sets: 3,
               reps: "15 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/0r6xaOpKwuE",
               note: "Dead Hang"
             },
             {
@@ -898,7 +898,7 @@ const treinoData = {
               sets: 3,
               reps: "6",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/VpeeqGkiDUU",
               note: "Scapular Pull-up"
             },
             {
@@ -906,17 +906,17 @@ const treinoData = {
               sets: 3,
               reps: "10 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/EsnM8eBtazU",
               note: "Hollow Body Hold"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 2,
-        title: "Semana 2",
-        days: [
+      ]
+    },
+    {
+      id: 2,
+      title: "Semana 2",
+      days: [
         {
           id: "in2d1",
           title: "Dia 1: Empurrar e Core",
@@ -926,7 +926,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/bwWlK8f1-NM?t=27",
               note: "Knee Push-up"
             },
             {
@@ -934,7 +934,7 @@ const treinoData = {
               sets: 3,
               reps: "6-8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/XckEEwa1BPI?t=5",
               note: "Pike Push-up"
             },
             {
@@ -942,7 +942,7 @@ const treinoData = {
               sets: 3,
               reps: "25 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/pvIjsG5Svck?t=38",
               note: "Plank"
             },
             {
@@ -950,7 +950,7 @@ const treinoData = {
               sets: 3,
               reps: "20 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/UVyCKFb0aIg?t=45",
               note: "Tuck Hollow Body Hold"
             }
           ]
@@ -964,7 +964,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/FKJwrS0LAzk?t=15",
               note: "Australian Pull-up"
             },
             {
@@ -972,7 +972,7 @@ const treinoData = {
               sets: 3,
               reps: "8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/VpeeqGkiDUU",
               note: "Scapular Pull-up"
             },
             {
@@ -980,7 +980,7 @@ const treinoData = {
               sets: 3,
               reps: "12",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/8uoaYwS6iFM?t=45",
               note: "Bodyweight Squat"
             },
             {
@@ -988,7 +988,7 @@ const treinoData = {
               sets: 3,
               reps: "8 por perna",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/g8-Ge9S0aUw",
               note: "Lunge"
             }
           ]
@@ -1002,7 +1002,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/bwWlK8f1-NM?t=27",
               note: "Knee Push-up"
             },
             {
@@ -1010,7 +1010,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/FKJwrS0LAzk?t=16",
               note: "Australian Pull-up"
             },
             {
@@ -1018,7 +1018,7 @@ const treinoData = {
               sets: 3,
               reps: "12",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/Xp33YgPZgns?t=5",
               note: "Glute Bridge"
             },
             {
@@ -1026,7 +1026,7 @@ const treinoData = {
               sets: 3,
               reps: "20 segundos por lado",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/Oe9Tp9SvTCE",
               note: "Side Plank"
             }
           ]
@@ -1040,7 +1040,7 @@ const treinoData = {
               sets: 3,
               reps: "15 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/_vPttkLHZMw?t=34",
               note: "Support Hold"
             },
             {
@@ -1048,7 +1048,7 @@ const treinoData = {
               sets: 3,
               reps: "20 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/0r6xaOpKwuE",
               note: "Dead Hang"
             },
             {
@@ -1056,7 +1056,7 @@ const treinoData = {
               sets: 3,
               reps: "8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/VpeeqGkiDUU",
               note: "Scapular Pull-up"
             },
             {
@@ -1064,17 +1064,17 @@ const treinoData = {
               sets: 3,
               reps: "15 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/EsnM8eBtazU",
               note: "Hollow Body Hold"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 3,
-        title: "Semana 3",
-        days: [
+      ]
+    },
+    {
+      id: 3,
+      title: "Semana 3",
+      days: [
         {
           id: "in3d1",
           title: "Dia 1: Empurrar e Core",
@@ -1084,7 +1084,7 @@ const treinoData = {
               sets: 3,
               reps: "12-15",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/bwWlK8f1-NM?t=25",
               note: "Knee Push-up"
             },
             {
@@ -1092,7 +1092,7 @@ const treinoData = {
               sets: 3,
               reps: "6-8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/XckEEwa1BPI?t=4",
               note: "Pike Push-up"
             },
             {
@@ -1100,7 +1100,7 @@ const treinoData = {
               sets: 3,
               reps: "30 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/pvIjsG5Svck?t=41",
               note: "Plank"
             },
             {
@@ -1108,7 +1108,7 @@ const treinoData = {
               sets: 3,
               reps: "25 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/UVyCKFb0aIg?t=45",
               note: "Tuck Hollow Body Hold"
             }
           ]
@@ -1122,7 +1122,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/FKJwrS0LAzk?t=16",
               note: "Australian Pull-up"
             },
             {
@@ -1130,7 +1130,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/VpeeqGkiDUU",
               note: "Scapular Pull-up"
             },
             {
@@ -1138,7 +1138,7 @@ const treinoData = {
               sets: 3,
               reps: "15",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/l83R5PblSMA",
               note: "Bodyweight Squat"
             },
             {
@@ -1146,7 +1146,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10 por perna",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/g8-Ge9S0aUw",
               note: "Lunge"
             }
           ]
@@ -1160,7 +1160,7 @@ const treinoData = {
               sets: 3,
               reps: "12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/bwWlK8f1-NM?t=25",
               note: "Knee Push-up"
             },
             {
@@ -1168,7 +1168,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/FKJwrS0LAzk?t=16",
               note: "Australian Pull-up"
             },
             {
@@ -1176,7 +1176,7 @@ const treinoData = {
               sets: 3,
               reps: "15",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/Xp33YgPZgns?t=15",
               note: "Glute Bridge"
             },
             {
@@ -1184,7 +1184,7 @@ const treinoData = {
               sets: 3,
               reps: "25 segundos por lado",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/Oe9Tp9SvTCE",
               note: "Side Plank"
             }
           ]
@@ -1198,7 +1198,7 @@ const treinoData = {
               sets: 3,
               reps: "20 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/_vPttkLHZMw?t=34",
               note: "Support Hold"
             },
             {
@@ -1206,7 +1206,7 @@ const treinoData = {
               sets: 3,
               reps: "25 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/0r6xaOpKwuE",
               note: "Dead Hang"
             },
             {
@@ -1214,7 +1214,7 @@ const treinoData = {
               sets: 3,
               reps: "8",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/VpeeqGkiDUU",
               note: "Scapular Pull-up"
             },
             {
@@ -1222,17 +1222,17 @@ const treinoData = {
               sets: 3,
               reps: "20 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/EsnM8eBtazU",
               note: "Hollow Body Hold"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 4,
-        title: "Semana 4",
-        days: [
+      ]
+    },
+    {
+      id: 4,
+      title: "Semana 4",
+      days: [
         {
           id: "in4d1",
           title: "Dia 1: Empurrar e Core",
@@ -1242,7 +1242,7 @@ const treinoData = {
               sets: 3,
               reps: "12-15",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/bwWlK8f1-NM?t=23",
               note: "Knee Push-up"
             },
             {
@@ -1250,7 +1250,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/XckEEwa1BPI",
               note: "Pike Push-up"
             },
             {
@@ -1258,7 +1258,7 @@ const treinoData = {
               sets: 3,
               reps: "40 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/pvIjsG5Svck?t=41",
               note: "Plank"
             },
             {
@@ -1266,7 +1266,7 @@ const treinoData = {
               sets: 3,
               reps: "30 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/UVyCKFb0aIg?t=45",
               note: "Tuck Hollow Body Hold"
             }
           ]
@@ -1280,7 +1280,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/FKJwrS0LAzk?t=16",
               note: "Australian Pull-up"
             },
             {
@@ -1288,7 +1288,7 @@ const treinoData = {
               sets: 3,
               reps: "10",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/VpeeqGkiDUU",
               note: "Scapular Pull-up"
             },
             {
@@ -1296,7 +1296,7 @@ const treinoData = {
               sets: 3,
               reps: "15-20",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/8uoaYwS6iFM?t=44",
               note: "Bodyweight Squat"
             },
             {
@@ -1304,7 +1304,7 @@ const treinoData = {
               sets: 3,
               reps: "10 por perna",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/g8-Ge9S0aUw",
               note: "Lunge"
             }
           ]
@@ -1318,7 +1318,7 @@ const treinoData = {
               sets: 3,
               reps: "12-15",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/bwWlK8f1-NM?t=27",
               note: "Knee Push-up"
             },
             {
@@ -1326,7 +1326,7 @@ const treinoData = {
               sets: 3,
               reps: "12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/FKJwrS0LAzk?t=19",
               note: "Australian Pull-up"
             },
             {
@@ -1334,7 +1334,7 @@ const treinoData = {
               sets: 3,
               reps: "15",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/tqp5XQPpTxY",
               note: "Glute Bridge"
             },
             {
@@ -1342,7 +1342,7 @@ const treinoData = {
               sets: 3,
               reps: "30 segundos por lado",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/Oe9Tp9SvTCE",
               note: "Side Plank"
             }
           ]
@@ -1356,7 +1356,7 @@ const treinoData = {
               sets: 3,
               reps: "25 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/_vPttkLHZMw?t=34",
               note: "Support Hold"
             },
             {
@@ -1364,7 +1364,7 @@ const treinoData = {
               sets: 3,
               reps: "30 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/0r6xaOpKwuE",
               note: "Dead Hang"
             },
             {
@@ -1372,7 +1372,7 @@ const treinoData = {
               sets: 3,
               reps: "10",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/VpeeqGkiDUU",
               note: "Scapular Pull-up"
             },
             {
@@ -1380,23 +1380,23 @@ const treinoData = {
               sets: 3,
               reps: "25 segundos",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/EsnM8eBtazU",
               note: "Hollow Body Hold"
             }
           ]
         }
-        ]
-      }
+      ]
+    }
       ]
     },
     {
       id: "intermediario",
       title: "Intermediário",
       weeks: [
-      {
-        id: 1,
-        title: "Semana 1",
-        days: [
+    {
+      id: 1,
+      title: "Semana 1",
+      days: [
         {
           id: "im1d1",
           title: "Dia 1: Empurrar",
@@ -1406,7 +1406,7 @@ const treinoData = {
               sets: 3,
               reps: "6-8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/IODxDxX7oi4",
               note: "Push-up"
             },
             {
@@ -1414,7 +1414,7 @@ const treinoData = {
               sets: 3,
               reps: "5-8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/XtU2VQVuLYs",
               note: "Diamond Push-up"
             },
             {
@@ -1422,7 +1422,7 @@ const treinoData = {
               sets: 3,
               reps: "6-8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/QBlYp-EwHlo",
               note: "Decline Push-up"
             },
             {
@@ -1430,7 +1430,7 @@ const treinoData = {
               sets: 3,
               reps: "15 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/hLYXOP-rFk8",
               note: "Wall Handstand"
             }
           ]
@@ -1444,7 +1444,7 @@ const treinoData = {
               sets: 3,
               reps: "3-5",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/aAggnpPyR6E",
               note: "Pull-up"
             },
             {
@@ -1452,7 +1452,7 @@ const treinoData = {
               sets: 3,
               reps: "3-5",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/xBzKgvYBxI4?t=15",
               note: "Chin-up"
             },
             {
@@ -1460,7 +1460,7 @@ const treinoData = {
               sets: 3,
               reps: "5 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/BQXsRxfYOUQ?t=8",
               note: "Tuck Front Lever"
             },
             {
@@ -1468,7 +1468,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/KNzJ3GuIpB8",
               note: "Hanging Knee Raise"
             }
           ]
@@ -1482,7 +1482,7 @@ const treinoData = {
               sets: 3,
               reps: "6 por perna",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/YArZi7mOKTs",
               note: "Bulgarian Split Squat"
             },
             {
@@ -1490,7 +1490,7 @@ const treinoData = {
               sets: 3,
               reps: "3-4 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FcQ77QxcotE?t=5",
               note: "Shrimp Squat"
             },
             {
@@ -1498,7 +1498,7 @@ const treinoData = {
               sets: 3,
               reps: "8 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/yb-asjaBRnM?t=13",
               note: "L-Sit"
             },
             {
@@ -1506,7 +1506,7 @@ const treinoData = {
               sets: 3,
               reps: "4-6",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/_jLskVdzS4o?t=30",
               note: "Hanging Leg Raise"
             }
           ]
@@ -1520,7 +1520,7 @@ const treinoData = {
               sets: 3,
               reps: "4 por lado",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/wJKLatFY-aU",
               note: "Archer Push-up"
             },
             {
@@ -1528,7 +1528,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/EsIdzx1J0iA?t=23",
               note: "Wide Push-up"
             },
             {
@@ -1536,7 +1536,7 @@ const treinoData = {
               sets: 3,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/o2qX3Zb5mvg",
               note: "Dip"
             },
             {
@@ -1544,17 +1544,17 @@ const treinoData = {
               sets: 3,
               reps: "20 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/hLYXOP-rFk8",
               note: "Wall Handstand"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 2,
-        title: "Semana 2",
-        days: [
+      ]
+    },
+    {
+      id: 2,
+      title: "Semana 2",
+      days: [
         {
           id: "im2d1",
           title: "Dia 1: Empurrar",
@@ -1564,7 +1564,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/IODxDxX7oi4?t=26",
               note: "Push-up"
             },
             {
@@ -1572,7 +1572,7 @@ const treinoData = {
               sets: 3,
               reps: "6-10",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/XtU2VQVuLYs",
               note: "Diamond Push-up"
             },
             {
@@ -1580,7 +1580,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/QBlYp-EwHlo",
               note: "Decline Push-up"
             },
             {
@@ -1588,7 +1588,7 @@ const treinoData = {
               sets: 3,
               reps: "20 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/hLYXOP-rFk8",
               note: "Wall Handstand"
             }
           ]
@@ -1602,7 +1602,7 @@ const treinoData = {
               sets: 3,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/aAggnpPyR6E",
               note: "Pull-up"
             },
             {
@@ -1610,7 +1610,7 @@ const treinoData = {
               sets: 3,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/xBzKgvYBxI4?t=12",
               note: "Chin-up"
             },
             {
@@ -1618,7 +1618,7 @@ const treinoData = {
               sets: 3,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/BQXsRxfYOUQ?t=7",
               note: "Tuck Front Lever"
             },
             {
@@ -1626,7 +1626,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/KNzJ3GuIpB8",
               note: "Hanging Knee Raise"
             }
           ]
@@ -1640,7 +1640,7 @@ const treinoData = {
               sets: 3,
               reps: "8 por perna",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/YArZi7mOKTs",
               note: "Bulgarian Split Squat"
             },
             {
@@ -1648,7 +1648,7 @@ const treinoData = {
               sets: 3,
               reps: "4-5 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FcQ77QxcotE?t=5",
               note: "Shrimp Squat"
             },
             {
@@ -1656,7 +1656,7 @@ const treinoData = {
               sets: 3,
               reps: "12 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/yb-asjaBRnM?t=70",
               note: "L-Sit"
             },
             {
@@ -1664,7 +1664,7 @@ const treinoData = {
               sets: 3,
               reps: "6-8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/_jLskVdzS4o?t=29",
               note: "Hanging Leg Raise"
             }
           ]
@@ -1678,7 +1678,7 @@ const treinoData = {
               sets: 3,
               reps: "5 por lado",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/wJKLatFY-aU",
               note: "Archer Push-up"
             },
             {
@@ -1686,7 +1686,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/m3FTgWtJsFE",
               note: "Wide Push-up"
             },
             {
@@ -1694,7 +1694,7 @@ const treinoData = {
               sets: 3,
               reps: "5-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/bcO6V1xT48o",
               note: "Dip"
             },
             {
@@ -1702,17 +1702,17 @@ const treinoData = {
               sets: 4,
               reps: "20 segundos",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/5kalrTkvm-8",
               note: "Wall Handstand"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 3,
-        title: "Semana 3",
-        days: [
+      ]
+    },
+    {
+      id: 3,
+      title: "Semana 3",
+      days: [
         {
           id: "im3d1",
           title: "Dia 1: Empurrar",
@@ -1722,7 +1722,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/I9fsqKE5XHo",
               note: "Push-up"
             },
             {
@@ -1730,7 +1730,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/kGhDnFwMY3E",
               note: "Diamond Push-up"
             },
             {
@@ -1738,7 +1738,7 @@ const treinoData = {
               sets: 3,
               reps: "8-12",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/O7dVvwEK9J4",
               note: "Decline Push-up"
             },
             {
@@ -1746,7 +1746,7 @@ const treinoData = {
               sets: 3,
               reps: "30 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/5kalrTkvm-8",
               note: "Wall Handstand"
             }
           ]
@@ -1760,7 +1760,7 @@ const treinoData = {
               sets: 4,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/RhNyvtK-IaA",
               note: "Pull-up"
             },
             {
@@ -1768,7 +1768,7 @@ const treinoData = {
               sets: 4,
               reps: "5-7",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/e1YSApl-QcM",
               note: "Chin-up"
             },
             {
@@ -1776,7 +1776,7 @@ const treinoData = {
               sets: 4,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/lkGhntOoLNk",
               note: "Tuck Front Lever"
             },
             {
@@ -1784,7 +1784,7 @@ const treinoData = {
               sets: 3,
               reps: "12-15",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/l7OroezzX9k",
               note: "Hanging Knee Raise"
             }
           ]
@@ -1798,7 +1798,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10 por perna",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/uBSoEWZu07k",
               note: "Bulgarian Split Squat"
             },
             {
@@ -1806,7 +1806,7 @@ const treinoData = {
               sets: 3,
               reps: "5-6 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/P-h6BuU3q78",
               note: "Shrimp Squat"
             },
             {
@@ -1814,7 +1814,7 @@ const treinoData = {
               sets: 4,
               reps: "12 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/a4qGW79QtrE",
               note: "L-Sit"
             },
             {
@@ -1822,7 +1822,7 @@ const treinoData = {
               sets: 3,
               reps: "8-10",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/2n4UqRIJyk4",
               note: "Hanging Leg Raise"
             }
           ]
@@ -1836,7 +1836,7 @@ const treinoData = {
               sets: 3,
               reps: "6 por lado",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mzr0RYNDzzI",
               note: "Archer Push-up"
             },
             {
@@ -1844,7 +1844,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/m3FTgWtJsFE",
               note: "Wide Push-up"
             },
             {
@@ -1852,7 +1852,7 @@ const treinoData = {
               sets: 4,
               reps: "6-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/bcO6V1xT48o",
               note: "Dip"
             },
             {
@@ -1860,17 +1860,17 @@ const treinoData = {
               sets: 4,
               reps: "30 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/5kalrTkvm-8",
               note: "Wall Handstand"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 4,
-        title: "Semana 4",
-        days: [
+      ]
+    },
+    {
+      id: 4,
+      title: "Semana 4",
+      days: [
         {
           id: "im4d1",
           title: "Dia 1: Empurrar",
@@ -1880,7 +1880,7 @@ const treinoData = {
               sets: 4,
               reps: "8-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/I9fsqKE5XHo",
               note: "Push-up"
             },
             {
@@ -1888,7 +1888,7 @@ const treinoData = {
               sets: 3,
               reps: "8-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/kGhDnFwMY3E",
               note: "Diamond Push-up"
             },
             {
@@ -1896,7 +1896,7 @@ const treinoData = {
               sets: 3,
               reps: "10-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/O7dVvwEK9J4",
               note: "Decline Push-up"
             },
             {
@@ -1904,7 +1904,7 @@ const treinoData = {
               sets: 4,
               reps: "20-30 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/5kalrTkvm-8",
               note: "Wall Handstand"
             }
           ]
@@ -1918,7 +1918,7 @@ const treinoData = {
               sets: 4,
               reps: "5-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/RhNyvtK-IaA",
               note: "Pull-up"
             },
             {
@@ -1926,7 +1926,7 @@ const treinoData = {
               sets: 4,
               reps: "6-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/e1YSApl-QcM",
               note: "Chin-up"
             },
             {
@@ -1934,7 +1934,7 @@ const treinoData = {
               sets: 4,
               reps: "10-12 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/lkGhntOoLNk",
               note: "Tuck Front Lever"
             },
             {
@@ -1942,7 +1942,7 @@ const treinoData = {
               sets: 3,
               reps: "12-15",
               rest: "45-60 s",
-              video: "",
+              video: "https://youtu.be/l7OroezzX9k",
               note: "Hanging Knee Raise"
             }
           ]
@@ -1956,7 +1956,7 @@ const treinoData = {
               sets: 3,
               reps: "10 por perna",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/uBSoEWZu07k",
               note: "Bulgarian Split Squat"
             },
             {
@@ -1964,7 +1964,7 @@ const treinoData = {
               sets: 3,
               reps: "6-8 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/P-h6BuU3q78",
               note: "Shrimp Squat"
             },
             {
@@ -1972,7 +1972,7 @@ const treinoData = {
               sets: 4,
               reps: "15-20 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/a4qGW79QtrE",
               note: "L-Sit"
             },
             {
@@ -1980,7 +1980,7 @@ const treinoData = {
               sets: 3,
               reps: "8-12",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/2n4UqRIJyk4",
               note: "Hanging Leg Raise"
             }
           ]
@@ -1994,7 +1994,7 @@ const treinoData = {
               sets: 3,
               reps: "6-8 por lado",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mzr0RYNDzzI",
               note: "Archer Push-up"
             },
             {
@@ -2002,7 +2002,7 @@ const treinoData = {
               sets: 3,
               reps: "12-15",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/m3FTgWtJsFE",
               note: "Wide Push-up"
             },
             {
@@ -2010,7 +2010,7 @@ const treinoData = {
               sets: 4,
               reps: "8-10",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/bcO6V1xT48o",
               note: "Dip"
             },
             {
@@ -2018,23 +2018,23 @@ const treinoData = {
               sets: 4,
               reps: "30-40 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/5kalrTkvm-8",
               note: "Wall Handstand"
             }
           ]
         }
-        ]
-      }
+      ]
+    }
       ]
     },
     {
       id: "intermediario-avancado",
       title: "Intermediário-avançado",
       weeks: [
-      {
-        id: 1,
-        title: "Semana 1",
-        days: [
+    {
+      id: 1,
+      title: "Semana 1",
+      days: [
         {
           id: "ia1d1",
           title: "Dia 1: Empurrar e Explosão",
@@ -2044,7 +2044,7 @@ const treinoData = {
               sets: 4,
               reps: "3-5",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/ISYbQj-t5yQ",
               note: "Clapping Push-up"
             },
             {
@@ -2052,7 +2052,7 @@ const treinoData = {
               sets: 4,
               reps: "5-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/VJd_q5w-VeY",
               note: "Pseudo Planche Push-up"
             },
             {
@@ -2060,7 +2060,7 @@ const treinoData = {
               sets: 4,
               reps: "3-5",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2068,7 +2068,7 @@ const treinoData = {
               sets: 4,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2082,7 +2082,7 @@ const treinoData = {
               sets: 4,
               reps: "1-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2090,7 +2090,7 @@ const treinoData = {
               sets: 4,
               reps: "3-5",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/KVnxsJpKyOA",
               note: "Chest-to-Bar Pull-up"
             },
             {
@@ -2098,7 +2098,7 @@ const treinoData = {
               sets: 4,
               reps: "6 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             },
             {
@@ -2106,7 +2106,7 @@ const treinoData = {
               sets: 4,
               reps: "6 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             }
           ]
@@ -2120,7 +2120,7 @@ const treinoData = {
               sets: 4,
               reps: "3 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/vq5-vdgJc0I",
               note: "Pistol Squat"
             },
             {
@@ -2128,7 +2128,7 @@ const treinoData = {
               sets: 4,
               reps: "2-3 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/hm6WrUKWouo",
               note: "Dragon Squat"
             },
             {
@@ -2136,7 +2136,7 @@ const treinoData = {
               sets: 4,
               reps: "4-6",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/kjYuPnmMjfo",
               note: "Toes-to-Bar"
             },
             {
@@ -2144,7 +2144,7 @@ const treinoData = {
               sets: 4,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2158,7 +2158,7 @@ const treinoData = {
               sets: 5,
               reps: "1-2",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2166,7 +2166,7 @@ const treinoData = {
               sets: 4,
               reps: "3-4",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2174,7 +2174,7 @@ const treinoData = {
               sets: 4,
               reps: "6 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             },
             {
@@ -2182,17 +2182,17 @@ const treinoData = {
               sets: 4,
               reps: "6 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 2,
-        title: "Semana 2",
-        days: [
+      ]
+    },
+    {
+      id: 2,
+      title: "Semana 2",
+      days: [
         {
           id: "ia2d1",
           title: "Dia 1: Empurrar e Explosão",
@@ -2202,7 +2202,7 @@ const treinoData = {
               sets: 4,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/ISYbQj-t5yQ",
               note: "Clapping Push-up"
             },
             {
@@ -2210,7 +2210,7 @@ const treinoData = {
               sets: 4,
               reps: "6-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/VJd_q5w-VeY",
               note: "Pseudo Planche Push-up"
             },
             {
@@ -2218,7 +2218,7 @@ const treinoData = {
               sets: 4,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2226,7 +2226,7 @@ const treinoData = {
               sets: 4,
               reps: "10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2240,7 +2240,7 @@ const treinoData = {
               sets: 4,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2248,7 +2248,7 @@ const treinoData = {
               sets: 4,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/KVnxsJpKyOA",
               note: "Chest-to-Bar Pull-up"
             },
             {
@@ -2256,7 +2256,7 @@ const treinoData = {
               sets: 4,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             },
             {
@@ -2264,7 +2264,7 @@ const treinoData = {
               sets: 4,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             }
           ]
@@ -2278,7 +2278,7 @@ const treinoData = {
               sets: 4,
               reps: "4 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/vq5-vdgJc0I",
               note: "Pistol Squat"
             },
             {
@@ -2286,7 +2286,7 @@ const treinoData = {
               sets: 4,
               reps: "3 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/hm6WrUKWouo",
               note: "Dragon Squat"
             },
             {
@@ -2294,7 +2294,7 @@ const treinoData = {
               sets: 4,
               reps: "6-8",
               rest: "90-120 s",
-              video: "",
+              video: "https://youtu.be/kjYuPnmMjfo",
               note: "Toes-to-Bar"
             },
             {
@@ -2302,7 +2302,7 @@ const treinoData = {
               sets: 4,
               reps: "10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2316,7 +2316,7 @@ const treinoData = {
               sets: 5,
               reps: "2",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2324,7 +2324,7 @@ const treinoData = {
               sets: 4,
               reps: "4-5",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2332,7 +2332,7 @@ const treinoData = {
               sets: 5,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             },
             {
@@ -2340,17 +2340,17 @@ const treinoData = {
               sets: 5,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 3,
-        title: "Semana 3",
-        days: [
+      ]
+    },
+    {
+      id: 3,
+      title: "Semana 3",
+      days: [
         {
           id: "ia3d1",
           title: "Dia 1: Empurrar e Explosão",
@@ -2360,7 +2360,7 @@ const treinoData = {
               sets: 5,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/ISYbQj-t5yQ",
               note: "Clapping Push-up"
             },
             {
@@ -2368,7 +2368,7 @@ const treinoData = {
               sets: 4,
               reps: "6-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/VJd_q5w-VeY",
               note: "Pseudo Planche Push-up"
             },
             {
@@ -2376,7 +2376,7 @@ const treinoData = {
               sets: 5,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2384,7 +2384,7 @@ const treinoData = {
               sets: 5,
               reps: "10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2398,7 +2398,7 @@ const treinoData = {
               sets: 5,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2406,7 +2406,7 @@ const treinoData = {
               sets: 5,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/KVnxsJpKyOA",
               note: "Chest-to-Bar Pull-up"
             },
             {
@@ -2414,7 +2414,7 @@ const treinoData = {
               sets: 5,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             },
             {
@@ -2422,7 +2422,7 @@ const treinoData = {
               sets: 5,
               reps: "10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             }
           ]
@@ -2436,7 +2436,7 @@ const treinoData = {
               sets: 4,
               reps: "5 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/vq5-vdgJc0I",
               note: "Pistol Squat"
             },
             {
@@ -2444,7 +2444,7 @@ const treinoData = {
               sets: 4,
               reps: "3-4 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/hm6WrUKWouo",
               note: "Dragon Squat"
             },
             {
@@ -2452,7 +2452,7 @@ const treinoData = {
               sets: 5,
               reps: "6-8",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/kjYuPnmMjfo",
               note: "Toes-to-Bar"
             },
             {
@@ -2460,7 +2460,7 @@ const treinoData = {
               sets: 5,
               reps: "12 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2474,7 +2474,7 @@ const treinoData = {
               sets: 5,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2482,7 +2482,7 @@ const treinoData = {
               sets: 5,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2490,7 +2490,7 @@ const treinoData = {
               sets: 5,
               reps: "10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             },
             {
@@ -2498,17 +2498,17 @@ const treinoData = {
               sets: 5,
               reps: "8-10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 4,
-        title: "Semana 4",
-        days: [
+      ]
+    },
+    {
+      id: 4,
+      title: "Semana 4",
+      days: [
         {
           id: "ia4d1",
           title: "Dia 1: Empurrar e Explosão",
@@ -2518,7 +2518,7 @@ const treinoData = {
               sets: 5,
               reps: "5-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/ISYbQj-t5yQ",
               note: "Clapping Push-up"
             },
             {
@@ -2526,7 +2526,7 @@ const treinoData = {
               sets: 5,
               reps: "6-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/VJd_q5w-VeY",
               note: "Pseudo Planche Push-up"
             },
             {
@@ -2534,7 +2534,7 @@ const treinoData = {
               sets: 5,
               reps: "5-7",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2542,7 +2542,7 @@ const treinoData = {
               sets: 5,
               reps: "12 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2556,7 +2556,7 @@ const treinoData = {
               sets: 5,
               reps: "3-4",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2564,7 +2564,7 @@ const treinoData = {
               sets: 5,
               reps: "5-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/KVnxsJpKyOA",
               note: "Chest-to-Bar Pull-up"
             },
             {
@@ -2572,7 +2572,7 @@ const treinoData = {
               sets: 5,
               reps: "10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             },
             {
@@ -2580,7 +2580,7 @@ const treinoData = {
               sets: 5,
               reps: "12 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             }
           ]
@@ -2594,7 +2594,7 @@ const treinoData = {
               sets: 5,
               reps: "5 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/vq5-vdgJc0I",
               note: "Pistol Squat"
             },
             {
@@ -2602,7 +2602,7 @@ const treinoData = {
               sets: 4,
               reps: "4 por perna",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/hm6WrUKWouo",
               note: "Dragon Squat"
             },
             {
@@ -2610,7 +2610,7 @@ const treinoData = {
               sets: 5,
               reps: "8-10",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/kjYuPnmMjfo",
               note: "Toes-to-Bar"
             },
             {
@@ -2618,7 +2618,7 @@ const treinoData = {
               sets: 5,
               reps: "12-15 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/YHkHgJOAe9A",
               note: "Tuck Planche"
             }
           ]
@@ -2632,7 +2632,7 @@ const treinoData = {
               sets: 5,
               reps: "3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/Gpny7WAAZ44",
               note: "Muscle-up"
             },
             {
@@ -2640,7 +2640,7 @@ const treinoData = {
               sets: 5,
               reps: "5-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/gSjHRuRQ4hk",
               note: "Handstand Push-up"
             },
             {
@@ -2648,7 +2648,7 @@ const treinoData = {
               sets: 5,
               reps: "12 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FZZqbeZti84",
               note: "Back Lever"
             },
             {
@@ -2656,23 +2656,23 @@ const treinoData = {
               sets: 5,
               reps: "10-12 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/FC9Ch8clkZc",
               note: "Advanced Tuck Front Lever"
             }
           ]
         }
-        ]
-      }
+      ]
+    }
       ]
     },
     {
       id: "avancado",
       title: "Avançado",
       weeks: [
-      {
-        id: 1,
-        title: "Semana 1",
-        days: [
+    {
+      id: 1,
+      title: "Semana 1",
+      days: [
         {
           id: "av1d1",
           title: "Dia 1: Puxar em Alavanca",
@@ -2682,7 +2682,7 @@ const treinoData = {
               sets: 5,
               reps: "3-5 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/5g8-sj-8snc",
               note: "Full Front Lever"
             },
             {
@@ -2690,7 +2690,7 @@ const treinoData = {
               sets: 4,
               reps: "1-2",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/nOB5hcmXksQ",
               note: "Front Lever Pull-up"
             },
             {
@@ -2698,7 +2698,7 @@ const treinoData = {
               sets: 4,
               reps: "1 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
@@ -2712,7 +2712,7 @@ const treinoData = {
               sets: 5,
               reps: "3-5 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IP-Vs4jfSyc",
               note: "Straddle Planche"
             },
             {
@@ -2720,7 +2720,7 @@ const treinoData = {
               sets: 4,
               reps: "1-2",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/8z2Jmgf8GH8",
               note: "Planche Push-up"
             },
             {
@@ -2728,7 +2728,7 @@ const treinoData = {
               sets: 4,
               reps: "3-5 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/w_ZN19S5Gpk",
               note: "90-Degree Hold"
             },
             {
@@ -2736,7 +2736,7 @@ const treinoData = {
               sets: 4,
               reps: "2-3 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IlWN4SNqaEM",
               note: "One-Arm Push-up"
             }
           ]
@@ -2750,7 +2750,7 @@ const treinoData = {
               sets: 5,
               reps: "10 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/lGIFTWsBXdw",
               note: "Freestanding Handstand"
             },
             {
@@ -2758,7 +2758,7 @@ const treinoData = {
               sets: 4,
               reps: "1-2",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/tQhrk6WMcKw",
               note: "Freestanding Handstand Push-up"
             },
             {
@@ -2766,7 +2766,7 @@ const treinoData = {
               sets: 4,
               reps: "3-5 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/y4Vwwz8vV2U",
               note: "Human Flag"
             }
           ]
@@ -2780,7 +2780,7 @@ const treinoData = {
               sets: 4,
               reps: "3-5",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/pvz7k5gO-DE",
               note: "Dragon Flag"
             },
             {
@@ -2788,7 +2788,7 @@ const treinoData = {
               sets: 4,
               reps: "8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/XblDyJlfe3k",
               note: "V-Sit"
             },
             {
@@ -2796,7 +2796,7 @@ const treinoData = {
               sets: 4,
               reps: "1-2 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/LgPG0MZPI84",
               note: "Full Planche"
             },
             {
@@ -2804,17 +2804,17 @@ const treinoData = {
               sets: 4,
               reps: "1 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 2,
-        title: "Semana 2",
-        days: [
+      ]
+    },
+    {
+      id: 2,
+      title: "Semana 2",
+      days: [
         {
           id: "av2d1",
           title: "Dia 1: Puxar em Alavanca",
@@ -2824,7 +2824,7 @@ const treinoData = {
               sets: 5,
               reps: "5-6 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/5g8-sj-8snc",
               note: "Full Front Lever"
             },
             {
@@ -2832,7 +2832,7 @@ const treinoData = {
               sets: 4,
               reps: "2",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/nOB5hcmXksQ",
               note: "Front Lever Pull-up"
             },
             {
@@ -2840,7 +2840,7 @@ const treinoData = {
               sets: 4,
               reps: "1-2 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
@@ -2854,7 +2854,7 @@ const treinoData = {
               sets: 5,
               reps: "5-8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IP-Vs4jfSyc",
               note: "Straddle Planche"
             },
             {
@@ -2862,7 +2862,7 @@ const treinoData = {
               sets: 4,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/8z2Jmgf8GH8",
               note: "Planche Push-up"
             },
             {
@@ -2870,7 +2870,7 @@ const treinoData = {
               sets: 4,
               reps: "5-8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/w_ZN19S5Gpk",
               note: "90-Degree Hold"
             },
             {
@@ -2878,7 +2878,7 @@ const treinoData = {
               sets: 4,
               reps: "3-4 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IlWN4SNqaEM",
               note: "One-Arm Push-up"
             }
           ]
@@ -2892,7 +2892,7 @@ const treinoData = {
               sets: 5,
               reps: "15 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/lGIFTWsBXdw",
               note: "Freestanding Handstand"
             },
             {
@@ -2900,7 +2900,7 @@ const treinoData = {
               sets: 4,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/tQhrk6WMcKw",
               note: "Freestanding Handstand Push-up"
             },
             {
@@ -2908,7 +2908,7 @@ const treinoData = {
               sets: 4,
               reps: "5-8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/y4Vwwz8vV2U",
               note: "Human Flag"
             }
           ]
@@ -2922,7 +2922,7 @@ const treinoData = {
               sets: 4,
               reps: "4-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/pvz7k5gO-DE",
               note: "Dragon Flag"
             },
             {
@@ -2930,7 +2930,7 @@ const treinoData = {
               sets: 4,
               reps: "10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/XblDyJlfe3k",
               note: "V-Sit"
             },
             {
@@ -2938,7 +2938,7 @@ const treinoData = {
               sets: 4,
               reps: "2-3 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/LgPG0MZPI84",
               note: "Full Planche"
             },
             {
@@ -2946,17 +2946,17 @@ const treinoData = {
               sets: 5,
               reps: "1 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 3,
-        title: "Semana 3",
-        days: [
+      ]
+    },
+    {
+      id: 3,
+      title: "Semana 3",
+      days: [
         {
           id: "av3d1",
           title: "Dia 1: Puxar em Alavanca",
@@ -2966,7 +2966,7 @@ const treinoData = {
               sets: 5,
               reps: "6-8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/5g8-sj-8snc",
               note: "Full Front Lever"
             },
             {
@@ -2974,7 +2974,7 @@ const treinoData = {
               sets: 5,
               reps: "2",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/nOB5hcmXksQ",
               note: "Front Lever Pull-up"
             },
             {
@@ -2982,7 +2982,7 @@ const treinoData = {
               sets: 5,
               reps: "1-2 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
@@ -2996,7 +2996,7 @@ const treinoData = {
               sets: 5,
               reps: "8-10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IP-Vs4jfSyc",
               note: "Straddle Planche"
             },
             {
@@ -3004,7 +3004,7 @@ const treinoData = {
               sets: 5,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/8z2Jmgf8GH8",
               note: "Planche Push-up"
             },
             {
@@ -3012,7 +3012,7 @@ const treinoData = {
               sets: 5,
               reps: "6-8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/w_ZN19S5Gpk",
               note: "90-Degree Hold"
             },
             {
@@ -3020,7 +3020,7 @@ const treinoData = {
               sets: 5,
               reps: "3-5 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IlWN4SNqaEM",
               note: "One-Arm Push-up"
             }
           ]
@@ -3034,7 +3034,7 @@ const treinoData = {
               sets: 5,
               reps: "20 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/lGIFTWsBXdw",
               note: "Freestanding Handstand"
             },
             {
@@ -3042,7 +3042,7 @@ const treinoData = {
               sets: 5,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/tQhrk6WMcKw",
               note: "Freestanding Handstand Push-up"
             },
             {
@@ -3050,7 +3050,7 @@ const treinoData = {
               sets: 5,
               reps: "6-8 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/y4Vwwz8vV2U",
               note: "Human Flag"
             }
           ]
@@ -3064,7 +3064,7 @@ const treinoData = {
               sets: 5,
               reps: "5-6",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/pvz7k5gO-DE",
               note: "Dragon Flag"
             },
             {
@@ -3072,7 +3072,7 @@ const treinoData = {
               sets: 5,
               reps: "12 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/XblDyJlfe3k",
               note: "V-Sit"
             },
             {
@@ -3080,7 +3080,7 @@ const treinoData = {
               sets: 5,
               reps: "3 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/LgPG0MZPI84",
               note: "Full Planche"
             },
             {
@@ -3088,17 +3088,17 @@ const treinoData = {
               sets: 5,
               reps: "1-2 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
         }
-        ]
-      },
-      {
-        id: 4,
-        title: "Semana 4",
-        days: [
+      ]
+    },
+    {
+      id: 4,
+      title: "Semana 4",
+      days: [
         {
           id: "av4d1",
           title: "Dia 1: Puxar em Alavanca",
@@ -3108,7 +3108,7 @@ const treinoData = {
               sets: 5,
               reps: "8-10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/5g8-sj-8snc",
               note: "Full Front Lever"
             },
             {
@@ -3116,7 +3116,7 @@ const treinoData = {
               sets: 5,
               reps: "2-3",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/nOB5hcmXksQ",
               note: "Front Lever Pull-up"
             },
             {
@@ -3124,7 +3124,7 @@ const treinoData = {
               sets: 5,
               reps: "2 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
@@ -3138,7 +3138,7 @@ const treinoData = {
               sets: 5,
               reps: "8-10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IP-Vs4jfSyc",
               note: "Straddle Planche"
             },
             {
@@ -3146,7 +3146,7 @@ const treinoData = {
               sets: 5,
               reps: "3-4",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/8z2Jmgf8GH8",
               note: "Planche Push-up"
             },
             {
@@ -3154,7 +3154,7 @@ const treinoData = {
               sets: 4,
               reps: "2-4",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/hLKoKIAp6Eg",
               note: "90-Degree Push-up"
             },
             {
@@ -3162,7 +3162,7 @@ const treinoData = {
               sets: 5,
               reps: "4-6 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/IlWN4SNqaEM",
               note: "One-Arm Push-up"
             }
           ]
@@ -3176,7 +3176,7 @@ const treinoData = {
               sets: 5,
               reps: "20-30 segundos",
               rest: "60-90 s",
-              video: "",
+              video: "https://youtu.be/lGIFTWsBXdw",
               note: "Freestanding Handstand"
             },
             {
@@ -3184,7 +3184,7 @@ const treinoData = {
               sets: 5,
               reps: "3-4",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/tQhrk6WMcKw",
               note: "Freestanding Handstand Push-up"
             },
             {
@@ -3192,7 +3192,7 @@ const treinoData = {
               sets: 5,
               reps: "8-10 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/y4Vwwz8vV2U",
               note: "Human Flag"
             }
           ]
@@ -3206,7 +3206,7 @@ const treinoData = {
               sets: 5,
               reps: "6-8",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/pvz7k5gO-DE",
               note: "Dragon Flag"
             },
             {
@@ -3214,7 +3214,7 @@ const treinoData = {
               sets: 5,
               reps: "3-5 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/BC2KQnTVkiE",
               note: "Manna"
             },
             {
@@ -3222,7 +3222,7 @@ const treinoData = {
               sets: 5,
               reps: "3-5 segundos",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/LgPG0MZPI84",
               note: "Full Planche"
             },
             {
@@ -3230,13 +3230,13 @@ const treinoData = {
               sets: 5,
               reps: "2 por braço",
               rest: "2-3 min",
-              video: "",
+              video: "https://youtu.be/mTJHClMQPM8",
               note: "One-Arm Pull-up"
             }
           ]
         }
-        ]
-      }
+      ]
+    }
       ]
     }
   ]
