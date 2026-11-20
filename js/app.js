@@ -141,7 +141,7 @@ function renderCurrentWeek() {
             <span>${ex.reps}</span>
             <span>Descanso: ${ex.rest}</span>
           </div>
-          <div class="sets-row" style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+          <div class="sets-row" style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap">
             <div class="sets-container">
               ${Array.from({length: ex.sets}, (_, i) => `
                 <button class="set-btn ${i < completedSets ? 'done' : ''}" 
@@ -150,7 +150,7 @@ function renderCurrentWeek() {
                 </button>
               `).join('')}
             </div>
-            <div class="timers" style="display:flex;flex-direction:row;align-items:center;gap:6px;margin-left:auto">
+            <div class="timers" style="display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:6px;margin-left:auto;max-width:100%">
               ${workSeconds ? timerButton(exId + ':work', workSeconds, 'Tempo', 'work') : ''}
               ${restSeconds ? timerButton(exId + ':rest', restSeconds, 'Descanso', '') : ''}
             </div>
